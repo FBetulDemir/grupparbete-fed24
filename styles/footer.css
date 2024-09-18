@@ -1,10 +1,13 @@
 footer {
+  position: absolute;
+  bottom: 0;
   background: linear-gradient(
     to bottom right,
     rgb(72, 225, 252),
     rgb(7, 19, 42),
     rgb(7, 20, 43)
   );
+  padding: 2em 3em;
   /* background-color: rgb(72, 225, 252); */
   font-family: "Poppins", sans-serif;
   color: rgb(255, 255, 255);
