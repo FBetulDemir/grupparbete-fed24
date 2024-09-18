@@ -1,0 +1,28 @@
+footer {
+  background: linear-gradient(
+    to bottom right,
+    rgb(72, 225, 252),
+    rgb(7, 19, 42),
+    rgb(7, 20, 43)
+  );
+  /* background-color: rgb(72, 225, 252); */
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.reviews-section {
+  padding: 3em;
+}
+
+.reviews-section h2 {
+  margin: 2em 0;
+  font-size: 30px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  margin-top: 2em;
+}
