@@ -24,8 +24,25 @@ footer {
 .reviews {
   display: flex;
   justify-content: space-around;
+  padding: 0 1em;
 }
 
 .name {
   margin-top: 2em;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-top: 2em;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+}
+
+.fa-brands {
+  padding: 2em;
+  width: 5em;
 }
