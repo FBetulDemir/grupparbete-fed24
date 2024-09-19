@@ -17,12 +17,17 @@ footer {
   padding: 3em;
 }
 
+.review-column {
+  padding: 2em;
+}
+
 .reviews-section h2 {
   margin: 2em 0;
   font-size: 30px;
 }
 .reviews {
   display: flex;
+  flex-grow: 1;
   justify-content: space-around;
   padding: 0 1em;
 }
@@ -31,18 +36,67 @@ footer {
   margin-top: 2em;
 }
 
+.contact-form-section {
+  padding: 3em;
+  flex: 1;
+}
+
 .contact-section {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
-  margin-top: 2em;
+  align-items: center;
+  margin: 2em 3em;
 }
 
 .contact-section h2 {
   font-size: 30px;
+  margin-bottom: 0.5em;
+}
+
+/* .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+.contact-form input {
+  border-radius: 12px;
+  padding: 1em 2em;
+  margin: 2em 0;
+  color: gray;
+  width: 50%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 12px;
+  width: 50%;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(248, 127, 127);
+}
+
+.social-icons {
+  flex: 1;
 }
 
 .fa-brands {
+  color: white;
   padding: 2em;
-  width: 5em;
+  width: 8em;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+  color: red;
 }
