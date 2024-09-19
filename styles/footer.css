@@ -1,0 +1,48 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom right,
+    rgb(72, 225, 252),
+    rgb(7, 19, 42),
+    rgb(7, 20, 43)
+  );
+  padding: 2em 3em;
+  /* background-color: rgb(72, 225, 252); */
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.reviews-section {
+  padding: 3em;
+}
+
+.reviews-section h2 {
+  margin: 2em 0;
+  font-size: 30px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1em;
+}
+
+.name {
+  margin-top: 2em;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-top: 2em;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+}
+
+.fa-brands {
+  padding: 2em;
+  width: 5em;
+}
