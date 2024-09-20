@@ -3,3 +3,7 @@
     color: black;
     font-size: 16px;
 }
+.powerbank-img {
+    max-width: 100%;
+    height: auto;
+}
