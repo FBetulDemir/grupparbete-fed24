@@ -1,25 +1,80 @@
-.first-section{
-    background-color: white;
-    color: black;
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  section {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section div {
+    height: 100%;
+    width: 280px;
+  }
+  
+  img {
+    width: 280px;
+    height: 100%;
+    border-radius: 3%;
+  }
+  
+  .description {
     font-size: 16px;
-    padding: 10px;
-    margin: 5px;
-
-}
-.powerbank-img {
-    max-width: 25%;
-    height: auto;
-    place-items: center;
+    font-family: poppins, sans serif;
+    color: rgb(40, 135, 142);
+    text-align:justify;
     
-}
-p{
-    color: black;
+  }
+  
+  footer {
+    background-color: rgb(115, 206, 226);
+    width: 100%;
+    display: flex;
+    padding: 5px 24px;
+    justify-content: center;
+    gap: 60px;
+    position: absolute;
+    bottom: 0;
+    font-size: 8px;
+    font-family: poppins, sans serif;
+  }
+  
+  footer div {
+    width: 250px;
+    
+  }
+  
+   p * {
+    margin: 6px;
     font-size: 16px;
-    font-style: normal;
-    font-family: poppins;
-} 
-header{
-    font-style: normal;
-    font-family: poppins;
+    font-family: poppins, sans-serif;
+    color: rgb(40, 135, 142)
+  }
+   
+  h2 {
     font-size: 30px;
-}
+    font-family: poppins, sans-serif;
+    color: rgb(40, 135, 142)
+
+  }
+  header{
+    background-color: rgb(115, 206, 226);
+    width: 100%;
+    height: 50px;
+  }

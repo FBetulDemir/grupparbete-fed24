@@ -6,22 +6,31 @@ img {
   display: flex;
 
 }
+body{
+background-color: aliceblue;
+}
+
 .contact-info {
   font-style: normal;
   font-family: poppins;
   font-size: 30px;
-  background-color: rgb(116, 116, 192);
+  background-color: rgba(17, 232, 232, 0.048);
+  color: rgb(38, 122, 122);
 
 }
 h1{
   font-style: normal;
   font-family: poppins;
-  font-size: 16px;
-  background-color: rgb(140, 140, 201);
+  font-size: 30px;
+  background-color: rgba(23, 229, 229, 0.137);
+  color:rgb(51, 114, 114);
+  padding: 1em;
+  
 }
 p{
   font-style: normal;
   font-family: poppins;
   font-size: 16px;
-  background-color: rgb(140, 140, 201);
+  background-color: rgba(17, 232, 232, 0.048;
+  color: rgb(51, 114, 114);
 }
