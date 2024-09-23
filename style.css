@@ -1,4 +1,4 @@
-
+/* Globala stilar */
 body {
 	font-family: 'Poppins', sans-serif;
 	background-color: #f5f5f5;
@@ -68,7 +68,7 @@ p {
 	/* Gör ikonerna lite större när man hovrar */
 }
 
-/* Responsiv design */
+/* Responsiv design för mindre skärmar */
 @media (max-width: 768px) {
 	.team-container {
 		flex-direction: column;
