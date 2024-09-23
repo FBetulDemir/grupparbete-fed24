@@ -4,4 +4,24 @@ img {
 
 .wrapper {
   display: flex;
+
+}
+.contact-info {
+  font-style: normal;
+  font-family: poppins;
+  font-size: 30px;
+  background-color: rgb(116, 116, 192);
+
+}
+h1{
+  font-style: normal;
+  font-family: poppins;
+  font-size: 16px;
+  background-color: rgb(140, 140, 201);
+}
+p{
+  font-style: normal;
+  font-family: poppins;
+  font-size: 16px;
+  background-color: rgb(140, 140, 201);
 }
