@@ -1,37 +1,104 @@
-img {
-  width: 50%;
+* {
+  
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.wrapper {
-  display: flex;
+body {
+  font-family: poppins, sans-serif;
+  background-color: #f4f4f4;
+  color: rgb(121, 119, 119);
+  padding: 20px;
+  margin: 20px;
 
 }
-body{
-background-color: aliceblue;
+
+.container {
+  max-width: 100%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #5091a3;
+}
+
+h2{
+font-size: 14px;
+font-family: poppins, sans serif;
+color: #5091a3;
+font-style: normal;
+margin-bottom: 1em;
+font-style: italic;
+text-align: center;
+margin-bottom: 4em;
+}
+h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #5091a3;
+  font-style: italic;
+}
+p {
+  margin-bottom: 10px;
+  line-height: 0.5;
 }
 
 .contact-info {
-  font-style: normal;
-  font-family: poppins;
-  font-size: 30px;
-  background-color: rgba(17, 232, 232, 0.048);
-  color: rgb(38, 122, 122);
-  display: flex;
-
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 12px;
 }
-h1{
-  font-style: normal;
-  font-family: poppins;
-  font-size: 30px;
-  background-color: rgba(23, 229, 229, 0.137);
-  color:rgb(51, 114, 114);
-  padding: 1em;
+.telephone{
+ color: rgb(128, 120, 120);
   
 }
-p{
-  font-style: normal;
-  font-family: poppins;
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 40%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 40%;
+  padding: 10px;
   font-size: 16px;
-  background-color: rgba(17, 232, 232, 0.048;
-  color: rgb(51, 114, 114);
+  background-color: #5091a3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5091a3;
 }
