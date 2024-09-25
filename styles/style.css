@@ -51,23 +51,7 @@ body {
     font-family: poppins, sans serif;
     color: black;
     text-align: justify;
-    
-  }
   
-  footer {
-    background-color: rgb(115, 206, 226);
-    width: 100%;
-    display: flex;
-    padding: 5px 16px;
-    justify-content: space-evenly;
-    gap: 60px;
-    position: absolute;
-    bottom: 0;
-    font-family: poppins, sans serif; 
-  }
-  footer div {
-    width: 100%;
-    color: rgb(40, 135, 142);
   }
   
    p {
@@ -82,10 +66,4 @@ body {
     font-family: poppins, sans-serif;
     color: black;
     
-
-  }
-  a {
-    color: rgb(40, 135, 142);
-    font-family: poppins, sans-serif;
-    display: flex;
   }
