@@ -98,13 +98,42 @@ p {
   background: linear-gradient(to right, #cdd8d8, #5599a9);
 }
 
-/* Icons */
-
-i {
-  font-size: xx-large;
-  transition: transform 0.3 ease;
+.member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* Ser till att bilden fyller cirkeln utan att förlora proportionerna */
+  margin-bottom: 15px;
 }
 
-i:hover {
-  transform: scale(1.2);
+/* Icons */
+
+.icon {
+  margin: 0 8px;
+  font-size: 1.5rem;
+}
+
+.icons > i {
+  transition: transform 0.3s ease;
+}
+
+.icon > i:hover {
+  transform: scale(1.4);
+}
+
+.icon i {
+  color: inherit; /* Behåller färginställningen för ikonerna */
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.github {
+  color: #333;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: 600;
 }
