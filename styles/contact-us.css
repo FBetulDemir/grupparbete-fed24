@@ -1,5 +1,4 @@
 * {
-  
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -31,14 +30,14 @@ h1 {
 }
 
 h2{
-font-size: 14px;
-font-family: poppins, sans serif;
-color: #5091a3;
-font-style: normal;
-margin-bottom: 1em;
-font-style: italic;
-text-align: center;
-margin-bottom: 4em;
+  font-size: 14px;
+  font-family: poppins, sans serif;
+  color: #5091a3;
+  font-style: normal;
+  margin-bottom: 1em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4em;
 }
 h3{
   font-size: 16px;
