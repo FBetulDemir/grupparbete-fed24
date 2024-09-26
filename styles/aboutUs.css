@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
 }
 
-h2 {
+.about-us-title {
   text-align: center;
   color: #333;
   font-size: 2rem;
@@ -15,10 +15,10 @@ h2 {
 }
 
 /* About Us-sektionen */
-#aboutUs {
+/* #aboutUs {
   background-color: white;
   padding: 50px;
-}
+} */
 
 .team-container {
   display: flex;
@@ -26,6 +26,7 @@ h2 {
   flex-wrap: nowrap;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 a {
@@ -45,13 +46,15 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h3 {
+.presentation h3,
+.aboutUs h3 {
   color: #00b8b8;
   /* Turkos rubrikfärg */
   font-size: 1.5rem;
 }
 
-p {
+.presentation p,
+.aboutUs p {
   color: #555;
   font-size: 1rem;
 }
@@ -96,6 +99,7 @@ p {
 #presentation {
   padding-top: 36px;
   background: linear-gradient(to right, #cdd8d8, #5599a9);
+  margin-bottom: 5em;
 }
 
 .member-image {

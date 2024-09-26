@@ -11,6 +11,7 @@ footer {
   /* background-color: rgb(72, 225, 252); */
   font-family: "Poppins", sans-serif;
   color: rgb(255, 255, 255);
+  margin-top: 3em;
 }
 
 .reviews-section {
@@ -88,15 +89,80 @@ footer {
 
 .social-icons {
   flex: 1;
+  .fa-brands {
+    color: white;
+    padding: 2em;
+    width: 8em;
+  }
+
+  .fa-brands:hover {
+    cursor: pointer;
+    color: red;
+  }
 }
 
-.fa-brands {
-  color: white;
-  padding: 2em;
-  width: 8em;
+@media (max-width: 768px) {
+  .reviews {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .review-column {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .reviews-section h2,
+  .contact-section h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form-section,
+  .social-icons {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .contact-form input,
+  .submit-btn {
+    width: 90%;
+    padding: 1em;
+  }
+
+  .fa-brands {
+    width: 2em;
+    padding: 1em;
+  }
 }
 
-.fa-brands:hover {
-  cursor: pointer;
-  color: red;
+@media (max-width: 480px) {
+  footer {
+    padding: 1.5em;
+  }
+
+  .reviews-section h2,
+  .contact-section h2 {
+    font-size: 20px;
+  }
+
+  .review-column h3 {
+    font-size: 18px;
+  }
+
+  .contact-form input,
+  .submit-btn {
+    padding: 0.8em;
+  }
+
+  .fa-brands {
+    width: 1.5em;
+    padding: 0.5em;
+  }
 }
