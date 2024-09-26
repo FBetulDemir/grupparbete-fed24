@@ -7,7 +7,7 @@
 body {
   font-family: poppins, sans-serif;
   background-color: #f4f4f4;
-  color: rgb(121, 119, 119);
+  color: white;
   padding: 20px;
   margin: 20px;
 
@@ -20,6 +20,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  background: linear-gradient(to bottom right, rgb(72, 225, 252), rgb(7, 19, 42), rgb(7, 20, 43));
 
 }
 
@@ -27,13 +28,13 @@ h1 {
   font-size: 26px;
   margin-bottom: 20px;
   text-align: center;
-  color: #5091a3;
+  color: whitesmoke;
 }
 
 h2{
   font-size: 14px;
   font-family: poppins, sans serif;
-  color: #5091a3;
+  color: whitesmoke;
   font-style: normal;
   margin-bottom: 1em;
   font-style: italic;
@@ -41,34 +42,36 @@ h2{
   margin-bottom: 4em;
 }
 h3{
-  font-size: 16px;
+  font-size: 14x;
   margin-bottom: 10px;
   text-align: left;
-  color: #5091a3;
+  color: whitesmoke;
   font-style: italic;
 }
 p {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   line-height: 0.5;
+  color: whitesmoke;
 }
 
 .contact-info {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 2em;
+  margin-top: 2em;
   font-size: 12px;
-}
-.telephone{
- color: rgb(128, 120, 120);
   
 }
 
+b{
+  line-height: 1.2;
+}
+  
 .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 label {
   display: block;
-  font-weight: bold;
+  
   margin-bottom: 5px;
 }
 
@@ -100,5 +103,5 @@ button {
 }
 
 button:hover {
-  background-color: #5091a3;
+  background-color: rgb(160, 156, 156);
 }
