@@ -12,14 +12,13 @@ h2 {
   color: #333;
   font-size: 2rem;
   margin-top: 32px;
-    margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 /* About Us-sektionen */
 #aboutUs {
   background-color: white;
   padding: 50px;
-  
 }
 
 .team-container {
@@ -57,12 +56,8 @@ p {
   font-size: 1rem;
 }
 
-
-
-  .team {
-    width: 90%;
-
-  }
+.team {
+  width: 90%;
 }
 
 /* About us Image*/
@@ -72,54 +67,53 @@ p {
 }
 
 .robot-image {
-  width: 500px; 
-  max-width: 100%; 
-  height: auto; 
+  width: 500px;
+  max-width: 100%;
+  height: auto;
   border-radius: 120px 0 120px 0;
 }
-
 
 /*Text*/
 
 .presentation {
- margin: 32px 32px 0 32px;
-text-align: left; /* Ensure text is left-aligned */
+  margin: 32px 32px 0 32px;
+  text-align: left; /* Ensure text is left-aligned */
 }
-
 
 .presentation > p {
   font-size: 1.2rem;
   color: white;
 }
 
-p > strong, p > em {
-	color:#3b479b;
+p > strong,
+p > em {
+  color: #3b479b;
 }
 
 #presentation {
   padding: 36px 0 36px 0;
   background: linear-gradient(to right, #cdd8d8, #5599a9);
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
 #presentation > h2 {
-	font-size: 2.4em;
-	font-weight: 600;
+  font-size: 2.4em;
+  font-weight: 600;
 }
 .presentation-container {
-  display: flex; 
-  max-width: 1200px; 
-  margin: 0 auto; 
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .member-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover; 
+  object-fit: cover;
   margin-bottom: 15px;
 }
 
@@ -139,7 +133,7 @@ p > strong, p > em {
 }
 
 .icon i {
-  color: inherit; 
+  color: inherit;
 }
 
 .linkedin {
@@ -160,12 +154,12 @@ p > strong, p > em {
 /* Responsive design */
 @media (max-width: 768px) {
   #presentation {
-    flex-direction: column; 
+    flex-direction: column;
   }
   .presentation-container {
-    flex-direction: column; 
+    flex-direction: column;
   }
   .presentation {
-    text-align: center; 
+    text-align: center;
   }
 }
