@@ -12,12 +12,14 @@ h2 {
   color: #333;
   font-size: 2rem;
   margin-top: 32px;
+    margin-bottom: 16px; 
 }
 
 /* About Us-sektionen */
 #aboutUs {
   background-color: white;
   padding: 50px;
+  
 }
 
 .team-container {
@@ -47,7 +49,6 @@ a {
 
 h3 {
   color: #00b8b8;
-  /* Turkos rubrikfärg */
   font-size: 1.5rem;
 }
 
@@ -56,16 +57,11 @@ p {
   font-size: 1rem;
 }
 
-/* Responsiv design för mindre skärmar */
-@media (max-width: 768px) {
-  .team-container {
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   .team {
     width: 90%;
-    /* För mindre skärmar fyller varje teammedlem nästan hela bredden */
+
   }
 }
 
@@ -76,33 +72,54 @@ p {
 }
 
 .robot-image {
-  max-width: 450px;
-  margin: 32px;
+  width: 500px; 
+  max-width: 100%; 
+  height: auto; 
   border-radius: 120px 0 120px 0;
 }
+
 
 /*Text*/
 
 .presentation {
-  text-align: center;
-  margin: 32px 124px 32px 124px;
-  padding-bottom: 32px;
+ margin: 32px 32px 0 32px;
+text-align: left; /* Ensure text is left-aligned */
 }
+
 
 .presentation > p {
   font-size: 1.2rem;
+  color: white;
+}
+
+p > strong, p > em {
+	color:#3b479b;
 }
 
 #presentation {
-  padding-top: 36px;
+  padding: 36px 0 36px 0;
   background: linear-gradient(to right, #cdd8d8, #5599a9);
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+#presentation > h2 {
+	font-size: 2.4em;
+	font-weight: 600;
+}
+.presentation-container {
+  display: flex; 
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .member-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover; /* Ser till att bilden fyller cirkeln utan att förlora proportionerna */
+  object-fit: cover; 
   margin-bottom: 15px;
 }
 
@@ -122,7 +139,7 @@ p {
 }
 
 .icon i {
-  color: inherit; /* Behåller färginställningen för ikonerna */
+  color: inherit; 
 }
 
 .linkedin {
@@ -134,6 +151,21 @@ p {
 }
 
 .subtitle {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #presentation {
+    flex-direction: column; 
+  }
+  .presentation-container {
+    flex-direction: column; 
+  }
+  .presentation {
+    text-align: center; 
+  }
 }
