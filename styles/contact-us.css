@@ -10,19 +10,18 @@
   font-family: poppins, sans-serif;
   background: linear-gradient(
     to bottom right,
-    rgb(72, 225, 252),
-    rgb(7, 19, 42),
-    rgb(7, 20, 43)
+    rgb(72 225 252),
+    rgb(7 19 42),
+    rgb(7 20 43)
   );
   width: 100%;
   height: 150vh;
 }
 
 .container {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
   margin: 0 10em;
   padding: 3em;
@@ -37,10 +36,11 @@
 
 .container h2 {
   font-size: 20px;
-  font-family: poppins, sans serif;
+  font-family: poppins, "sans serif";
   color: whitesmoke;
   text-align: justify;
 }
+
 .container h3 {
   font-size: 18px;
   margin-bottom: 1em;
@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .container p {
   color: whitesmoke;
   text-align: justify;
@@ -72,6 +73,7 @@
   padding: 0;
   width: 100%;
 }
+
 .container .form-group {
   margin-bottom: 5px;
   margin: 2px;
@@ -112,7 +114,7 @@
 }
 
 .container button:hover {
-  background-color: rgb(160, 156, 156);
+  background-color: rgb(160 156 156);
 }
 
 .map-section {
@@ -128,7 +130,7 @@
   border: none;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .container {
     display: flex;
     align-items: center;

@@ -1,6 +1,6 @@
 /* Globala stilar */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
@@ -16,6 +16,7 @@ body {
 }
 
 /* About Us-sektionen */
+
 /* #aboutUs {
   background-color: white;
   padding: 50px;
@@ -37,14 +38,14 @@ a {
 
 /* Stil för varje teammedlem */
 .team {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 2px solid #e0e0e0;
   border-radius: 10px;
   width: 250px;
   text-align: center;
   padding: 20px;
   margin: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
 }
 
 .presentation h3,
@@ -63,7 +64,7 @@ a {
   width: 90%;
 }
 
-/* About us Image*/
+/* About us Image */
 
 .image-wrapper {
   text-align: center;
@@ -73,13 +74,13 @@ a {
   width: 500px;
   max-width: 100%;
   height: auto;
-  border-radius: 120px 0 120px 0;
+  border-radius: 120px 0;
 }
 
-/*Text*/
+/* Text */
 
 .presentation {
-  margin: 32px 32px 0 32px;
+  margin: 32px 32px 0;
   text-align: left; /* Ensure text is left-aligned */
 }
 
@@ -94,7 +95,7 @@ p > em {
 }
 
 #presentation {
-  padding: 36px 0 36px 0;
+  padding: 36px 0;
   background: linear-gradient(to right, #cdd8d8, #5599a9);
   display: flex;
   flex-direction: column;
@@ -106,6 +107,7 @@ p > em {
   font-size: 2.4em;
   font-weight: 600;
 }
+
 .presentation-container {
   display: flex;
   max-width: 1200px;
@@ -155,13 +157,15 @@ p > em {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   #presentation {
     flex-direction: column;
   }
+
   .presentation-container {
     flex-direction: column;
   }
+
   .presentation {
     text-align: center;
   }

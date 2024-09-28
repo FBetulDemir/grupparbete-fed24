@@ -2,15 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .intro-section {
   height: 90vh;
+
   /* background-image: url("../Images/powerbank2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; */
+
   /* backdrop-filter: blur(18px); */
   display: flex;
   justify-content: center;
@@ -30,7 +32,7 @@
 
 .intro-section .description {
   font-size: 16px;
-  font-family: poppins, sans serif;
+  font-family: poppins, "sans serif";
   color: black;
   text-align: justify;
 }
@@ -39,16 +41,17 @@
   margin: 6px;
   font-size: 10px;
   font-family: poppins, sans-serif;
-  color: rgb(40, 135, 142);
+  color: rgb(40 135 142);
   display: flex;
 }
+
 .intro-section h2 {
   font-size: 30px;
   font-family: poppins, sans-serif;
   color: black;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .intro-section {
     flex-direction: column;
     padding: 1em;
@@ -64,7 +67,7 @@
 .product-third-section {
   padding: 3em 0;
   background-color: #f0f0f0;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .product-container {
@@ -74,9 +77,9 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2em;
-  background: #ffffff;
+  background: #fff;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgb(0 0 0 / 10%);
 }
 
 .product-image img {
@@ -136,7 +139,7 @@
   background-color: #00afb9;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .product-container {
     flex-direction: column;
     text-align: center;
@@ -151,4 +154,5 @@
     margin-bottom: 1.5em;
   }
 }
+
 /* third section styling finishes here */
