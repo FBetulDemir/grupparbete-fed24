@@ -50,7 +50,7 @@ header {
   border-radius: 5px;
 }
 
-.third-section > * {
+.second-section > * {
   background-image: linear-gradient(
       to bottom left,
       rgb(72, 225, 252),
