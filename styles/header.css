@@ -50,13 +50,93 @@ header {
   border-radius: 5px;
 }
 
-.second-section > * {
+/* Product Section */
+.product-section {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(72, 225, 252),
+      rgb(7, 19, 42),
+      rgb(7, 150, 182)
+    );
+}
+
+.product-container {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  max-width: 900px;
+  border: 1px solid #ddd;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  background-color: #c4ddf1;
+}
+
+.product-image {
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-details h2 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  color: #0081A7;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #ff6f61;
+  margin: 1em;
+}
+
+.description {
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  
+}
+
+.features {
+  margin-bottom: 2em;
+  padding-left: 2em;
+}
+
+.features li {
+  margin-bottom: 0.5em;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: #0081A7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  
+  font-size: 1rem;
+}
+
+.buy-button:hover {
+  background-color: #2b393a;
+}
+
+.third-section > * {
   background-image: linear-gradient(
       to bottom left,
       rgb(72, 225, 252),
       rgb(7, 19, 42),
       rgb(7, 150, 182)
     );
+    padding-top: 0.1em;
+    
+
 }
 
 h2{
@@ -65,6 +145,7 @@ margin: 0.5em;
 font-size: 2em;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
+  padding-top: 2em;
 }
 
 .all-products{
@@ -76,19 +157,19 @@ flex-wrap: wrap;
 }
 
 .product{
-overflow:hidden;
-background: lightgray;
-color: #21201e;
-text-align: center;
-width: 240px;
-height: 400px;
-padding: 2em;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border-radius: 1.2em;
-margin: 2em;
+	overflow:hidden;
+	background: rgb(194, 233, 245);
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2em;
+	margin: 2em;
 }
 
 .product .product-title, .product .product-price{
@@ -114,7 +195,7 @@ transition: all 0.3s;
 color: #ececec;
 display: inline-block;
 text-decoration: none;
-background-color: #2c3e50;
+background-color: #265e96;
 padding: 1.2em 3em;
 border-radius: 1em;
 margin-top: 1em;
@@ -124,3 +205,4 @@ transition: all 0.2s;
 
 .product a:hover{
 transform: scale(1.1);
+}
