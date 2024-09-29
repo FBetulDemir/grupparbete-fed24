@@ -36,7 +36,7 @@
 
 .container h2 {
   font-size: 20px;
-  font-family: poppins, "sans serif";
+  font-family: poppins, sans-serif;
   color: whitesmoke;
   text-align: justify;
 }
@@ -76,7 +76,6 @@
 
 .container .form-group {
   margin-bottom: 5px;
-  margin: 2px;
 }
 
 .container label {

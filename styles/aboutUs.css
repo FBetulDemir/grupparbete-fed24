@@ -49,19 +49,15 @@ a {
 }
 
 .presentation h3,
-.aboutUs h3 {
+.about-us h3 {
   color: #00b8b8;
   font-size: 1.5rem;
 }
 
 .presentation p,
-.aboutUs p {
+.about-us p {
   color: #555;
   font-size: 1rem;
-}
-
-.team {
-  width: 90%;
 }
 
 /* About us Image */
@@ -129,16 +125,16 @@ p > em {
   font-size: 1.5rem;
 }
 
+.icon i {
+  color: inherit;
+}
+
 .icons > i {
   transition: transform 0.3s ease;
 }
 
 .icon > i:hover {
   transform: scale(1.4);
-}
-
-.icon i {
-  color: inherit;
 }
 
 .linkedin {
