@@ -10,22 +10,39 @@
 
 header {
   background-color: #024357;
-  padding: 1.5em;
+  padding: 0.5em;
+  
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
-  margin: 0 auto;
+  
 }
 
-.logo a {
+.logo-img img{
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+  
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-left: 2px;
+  
+}
+
+.logon a {
   color: #ffffff;
   font-size: 1.5rem;
   text-decoration: none;
+  margin-left: -12em;
+  
 }
 
 .nav-links {
@@ -35,7 +52,7 @@ header {
 }
 
 .nav-links li {
-  display: in;
+  display: inline;
 }
 
 .nav-links a {
@@ -126,6 +143,7 @@ header {
 
 .buy-button:hover {
   background-color: #47595b;
+  transform: scale(1.1);
 }
 /* second -section */
 .second-section > * {
