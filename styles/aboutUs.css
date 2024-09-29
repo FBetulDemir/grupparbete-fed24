@@ -48,8 +48,7 @@ a {
   box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
 }
 
-.presentation h3,
-.about-us h3 {
+.member > h3 {
   color: #00b8b8;
   font-size: 1.5rem;
 }
