@@ -140,19 +140,19 @@ header {
 }
 
 h2{
-text-align: left;
-margin: 0.5em;
-font-size: 2em;
+  text-align: left;
+  margin: 0.5em;
+  font-size: 2em;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   padding-top: 2em;
 }
 
 .all-products{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
