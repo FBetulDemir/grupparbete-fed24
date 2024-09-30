@@ -19,6 +19,7 @@ header {
   align-items: center;
   width: 100%;
   max-width: 1200px;
+  flex: 1;
 }
 
 /* Keyframes for bounce */
@@ -252,4 +253,11 @@ h2 {
 .product a:hover {
   transform: scale(1.1);
   background-color: #47595b;
+}
+
+@media (width <= 900px) {
+  .bounce,
+  .logon {
+    display: none;
+  }
 }
