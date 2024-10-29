@@ -11,6 +11,7 @@
 header {
   background-color: #024357;
   padding: 0.5em;
+  font-family: Arial, sans-serif;
 }
 
 .navbar {
@@ -255,9 +256,193 @@ h2 {
   background-color: #47595b;
 }
 
-@media (width <= 900px) {
-  .bounce,
-  .logon {
-    display: none;
+
+/* Responsiv styling för skärmar upp till 990px */
+@media (max-width: 990px) {
+  /* Anpassa header och navbar */
+  .navbar {
+    padding: 1em;
+    flex-direction: column;
+    gap: 10px;
   }
+
+  .logon a {
+    font-size: 1.3rem;
+    margin-left: 0;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+
+  /* Produktsektion */
+  .product-section {
+    padding: 40px 20px;
+  }
+
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+  }
+
+  .product-image {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 1em;
+  }
+
+  /* Alla produkter sektion */
+  .all-products {
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .product {
+    width: 280px;
+    margin: 1em;
+  }
+
+  .product img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+}
+
+/* Responsiv styling för skärmar upp till 768px */
+@media (max-width: 768px) {
+  /* Anpassa header och navbar */
+  .navbar {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  /* Produktsektion */
+  .product-section {
+    padding: 30px 15px;
+  }
+
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .product-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 1em;
+  }
+
+  /* Alla produkter sektion */
+  .all-products {
+    flex-direction: column;
+    gap: 1em;
+    padding: 0;
+  }
+
+  .product {
+    width: 90%;
+    margin: 1em auto;
+    padding: 1.2em;
+  }
+
+  .product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+/* Responsiv styling för skärmar upp till 448px */
+@media (max-width: 448px) {
+  /* Justera header och navbar */
+  .navbar {
+    padding: 0.5em;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+    padding: 5px 8px;
+  }
+
+  /* Produktsektion */
+  .product-section {
+    padding: 20px 10px;
+  }
+
+  .product-container {
+    padding: 1em;
+  }
+
+  .product-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .product-details h2 {
+    font-size: 1.2em;
+  }
+
+  .price {
+    font-size: 1.1rem;
+  }
+
+  .description,
+  .features {
+    font-size: 0.9em;
+    padding: 0.5em;
+  }
+
+  .buy-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  /* Alla produkter sektion */
+  .all-products {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .product {
+    width: 90%;
+    margin: 1em auto;
+    padding: 1em;
+  }
+
+  .product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+ 
 }
