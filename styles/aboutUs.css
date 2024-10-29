@@ -150,8 +150,8 @@ p > em {
   color: #555;
   line-height: 1.7;
 }
-
-/* Responsive design */
+/*
+/* Responsive design *
 @media (width <= 768px) {
   #presentation {
     flex-direction: column;
@@ -164,4 +164,102 @@ p > em {
   .presentation {
     text-align: center;
   }
+}
+*/
+
+/* Responsiv styling för skärmar upp till 990px */
+@media (max-width: 990px) {
+
+  /* Presentation-sektionen */
+  .presentation-container {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .robot-image {
+    width: 80%;
+  }
+
+  /* Teamsektion */
+  .team-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .team {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+/* Responsiv styling för skärmar upp till 768px */
+@media (max-width: 768px) {
+  
+  /* Presentation-sektionen */
+  .presentation-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .presentation > p {
+    font-size: 1rem;
+  }
+
+  .robot-image {
+    width: 70%;
+    max-width: 300px;
+  }
+
+  /* Teamsektion */
+  .team {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .about-us-title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
+/* Responsiv styling för skärmar upp till 448px */
+@media (max-width: 448px) {
+  /* Presentation-sektionen */
+  #presentation > h2 {
+    font-size: 1.8rem;
+  }
+
+  .presentation-container {
+    padding: 10px;
+  }
+
+  .presentation {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .robot-image {
+    width: 90%;
+  }
+
+  /* Teamsektion */
+  .team-container {
+    padding: 0;
+  }
+
+  .team {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .member-image {
+    width: 100px;
+    height: 100px;
+  }
+
 }
